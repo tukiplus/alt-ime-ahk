@@ -4,9 +4,8 @@
 ; 右 Alt キーの空打ちで IME を「かな」に切り替え
 ; Alt キーを押している間に他のキーを打つと通常の Alt キーとして動作
 ;
-; Author:     karakaram   http://www.karakaram.com/alt-ime-on-off
-
-#Include IME.ahk
+; Original:     karakaram   http://www.karakaram.com/alt-ime-on-off
+; Author:       tukiplus
 
 ; Razer Synapseなど、キーカスタマイズ系のツールを併用しているときのエラー対策
 #MaxHotkeysPerInterval 350
@@ -115,7 +114,7 @@
 LAlt up::
     if (A_PriorHotkey == "*~LAlt")
     {
-        IME_SET(0)
+        Run, zenhan 0,, Hide
     }
     Return
 
@@ -123,6 +122,6 @@ LAlt up::
 RAlt up::
     if (A_PriorHotkey == "*~RAlt")
     {
-        IME_SET(1)
+        Run, zenhan 1,, Hide
     }
     Return
