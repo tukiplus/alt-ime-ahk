@@ -90,7 +90,7 @@
 *~>::
 *~/::
 *~?::
-*~Esc::
+;*~Esc::
 *~Tab::
 *~Space::
 *~Left::
@@ -125,3 +125,16 @@ RAlt up::
         Run, zenhan 1,, Hide
     }
     Return
+
+; ESC で IME を OFFにしてESC
+$ESC::
+    Run, zenhan 0,, Hide
+    Send {ESC}
+    Return
+    
+; Ctrl+[ で IME を OFFにしてCtrl+[
+$^[::
+    Run, zenhan 0,, Hide
+    Send ^[
+    Return
+
