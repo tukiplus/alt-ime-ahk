@@ -19,9 +19,9 @@ IME の操作は AutoHotKey スクリプトで直接行わず [zenhan](https://g
 
 ## 使い方
 
-別途 zenhan をインストールする。
+別途 zenhan をインストールしてください。
 
-[alt-ime-zenhan v0.0.1](https://github.com/tukiplus/alt-ime-ahk/releases/download/v0.0.1/alt-ime-zenhan.zip) から alt-ime-zenhan.zip をダウンロードして解凍し、alt-ime-zenhan.exe を好きな場所に置き、起動してください。  
+[alt-ime-zenhan v0.0.2](https://github.com/tukiplus/alt-ime-ahk/releases/download/v0.0.2/alt-ime-zenhan.zip) から alt-ime-zenhan.zip をダウンロードして解凍し、alt-ime-zenhan.exe を好きな場所に置き、起動してください。  
 タスクトレイに常駐します。
 
 終了する場合はタスクトレイのアイコンを右クリックし、「終了」をクリックしてください。
